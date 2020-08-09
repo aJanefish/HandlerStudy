@@ -37,6 +37,12 @@
             android:layout_height="wrap_content"
             android:onClick="startC"
             android:text="@string/start_c" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startD"
+            android:text="@string/start_d" />
     </LinearLayout>
 
 

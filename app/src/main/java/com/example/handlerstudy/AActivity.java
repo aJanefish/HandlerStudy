@@ -40,4 +40,11 @@ public class AActivity extends BaseActivity {
         Intent intent = new Intent(this, CActivity.class);
         startActivity(intent);
     }
+
+    public void startD(View view) {
+        showTag("start DActivity");
+
+        Intent intent = new Intent(this, DActivity.class);
+        startActivity(intent);
+    }
 }

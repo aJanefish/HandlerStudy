@@ -13,26 +13,44 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:ignore="MissingConstraints" />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/title"
         tools:ignore="MissingConstraints">
+
         <Button
-            android:text="@string/start_a"
-            android:onClick="startA"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="network1"
+            android:text="访问网络1" />
+
         <Button
-            android:text="@string/start_b"
-            android:onClick="startB"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="ues2"
+            android:text="用法2" />
+
         <Button
-            android:text="@string/start_c"
-            android:onClick="startC"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="ues3"
+            android:text="用法3" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ues4"
+            android:text="用法4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ues5"
+            android:text="设置屏障消息" />
     </LinearLayout>
 
 

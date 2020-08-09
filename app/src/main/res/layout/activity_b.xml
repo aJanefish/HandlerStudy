@@ -13,26 +13,31 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:ignore="MissingConstraints" />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/title"
         tools:ignore="MissingConstraints">
+
         <Button
-            android:text="@string/start_a"
-            android:onClick="startA"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="updateUI1"
+            android:text="子线程更新UI1" />
+
         <Button
-            android:text="@string/start_b"
-            android:onClick="startB"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="updateUI2"
+            android:text="子线程更新UI2" />
+
         <Button
-            android:text="@string/start_c"
-            android:onClick="startC"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:onClick="updateUI3"
+            android:text="子线程更新UI3" />
     </LinearLayout>
 
 
