@@ -15,19 +15,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="send111"
-            android:text="发送屏障消息" />
+            android:text="发送屏障消息1" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="remove111"
-            android:text="取消屏障消息" />
+            android:onClick="send222"
+            android:text="发送屏障消息2" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="show"
-            android:text="展示方法" />
+            android:onClick="show111"
+            android:text="主线程消息一" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="show222"
+            android:text="主线程消息二" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

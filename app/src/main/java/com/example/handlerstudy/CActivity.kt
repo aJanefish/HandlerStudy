@@ -8,10 +8,6 @@ import android.widget.TextView
 class CActivity : BaseActivity() {
 
 
-
-
-
-
     var mHandler: Handler = object : Handler() {
         override fun handleMessage(msg: Message) {
             super.handleMessage(msg)
